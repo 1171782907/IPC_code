@@ -1,10 +1,10 @@
 make --dry-run --always-make --keep-going --print-directory
-make: Entering directory `/Users/haobingwei/Desktop/github项目/ipc_code/fifo'
+make: Entering directory `/Users/haobingwei/Desktop/github项目/IPC_code/fifo'
 cc    -c -o creat_fifo.o creat_fifo.c
 gcc -o creat_fifo creat_fifo.o
 cc    -c -o read_fifo.o read_fifo.c
 gcc -o read_fifo read_fifo.o	
 cc    -c -o write_fifo.o write_fifo.c
 gcc -o write_fifo write_fifo.o					
-make: Leaving directory `/Users/haobingwei/Desktop/github项目/ipc_code/fifo'
+make: Leaving directory `/Users/haobingwei/Desktop/github项目/IPC_code/fifo'
  

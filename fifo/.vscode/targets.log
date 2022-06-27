@@ -10,7 +10,7 @@ make all --print-data-base --no-builtin-variables --no-builtin-rules --question
 make: *** No rule to make target `creat_fifo.o', needed by `creat_fifo'.  Stop.
 
 
-# Make data base, printed on Sun Jun 26 21:01:40 2022
+# Make data base, printed on Mon Jun 27 19:47:14 2022
 
 # Variables
 
@@ -18,8 +18,6 @@ make: *** No rule to make target `creat_fifo.o', needed by `creat_fifo'.  Stop.
 <D = $(patsubst %/,%,$(dir $<))
 # automatic
 ?F = $(notdir $?)
-# environment
-ELECTRON_NO_ATTACH_CONSOLE = 1
 # environment
 VSCODE_LOG_NATIVE = false
 # automatic
@@ -29,7 +27,7 @@ VSCODE_LOG_NATIVE = false
 # automatic
 @F = $(notdir $@)
 # makefile
-CURDIR := /Users/haobingwei/Desktop/github项目/ipc_code/fifo
+CURDIR := /Users/haobingwei/Desktop/github项目/IPC_code/fifo
 # makefile
 SHELL = /bin/sh
 # environment
@@ -45,9 +43,9 @@ __CFBundleIdentifier = com.microsoft.VSCode
 # environment
 INFOPATH = /opt/homebrew/share/info:
 # environment
-VSCODE_IPC_HOOK_EXTHOST = /var/folders/43/d1_10wss2zv0jcq5wv9r7y1r0000gn/T/vscode-ipc-df81cd28-c7cd-441a-a1a2-c1ee241af53a.sock
+VSCODE_IPC_HOOK_EXTHOST = /var/folders/43/d1_10wss2zv0jcq5wv9r7y1r0000gn/T/vscode-ipc-777d311d-67fc-41c1-914b-8ae6e374fb1b.sock
 # environment
-VSCODE_CWD = /Users/haobingwei/Desktop/github项目/ipc_code/fifo
+VSCODE_CWD = /
 # environment
 PATH = /Users/haobingwei/opt/anaconda3/bin:/Users/haobingwei/opt/anaconda3/condabin:/opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
 # environment
@@ -65,7 +63,7 @@ CONDA_EXE = /Users/haobingwei/opt/anaconda3/bin/conda
 # environment
 VSCODE_PIPE_LOGGING = true
 # environment
-PWD = /Users/haobingwei/Desktop/github项目/ipc_code/fifo
+PWD = /Users/haobingwei/Desktop/github项目/IPC_code/fifo
 # environment
 HOMEBREW_CELLAR = /opt/homebrew/Cellar
 # environment
@@ -78,8 +76,6 @@ VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
 HOME = /Users/haobingwei
 # default
 MAKEFILEPATH = $(shell /usr/bin/xcode-select -print-path 2>/dev/null || echo /Developer)/Makefiles
-# environment
-VSCODE_CLI = 1
 # environment
 VSCODE_CODE_CACHE_PATH = /Users/haobingwei/Library/Application Support/Code/CachedData/30d9c6cd9483b2cc586687151bcbcd635f373630
 # environment
@@ -101,9 +97,7 @@ MAKE = $(MAKE_COMMAND)
 # default
 MAKECMDGOALS := all
 # environment
-SHLVL = 3
-# environment
-TERM_SESSION_ID = CEB9E348-0F3C-4689-85DC-E6D7E631731F
+SHLVL = 1
 # default
 MAKE_VERSION := 3.81
 # environment
@@ -118,8 +112,6 @@ HOMEBREW_BOTTLE_DOMAIN = https://mirrors.ustc.edu.cn/homebrew-bottles/bottles
 CONDA_SHLVL = 1
 # default
 MAKE_COMMAND := /Library/Developer/CommandLineTools/usr/bin/make
-# environment
-TERM_PROGRAM = Apple_Terminal
 # default
 .VARIABLES := 
 # environment
@@ -135,9 +127,7 @@ MFLAGS = -Rrqp
 # automatic
 *D = $(patsubst %/,%,$(dir $*))
 # environment
-TERM_PROGRAM_VERSION = 445
-# environment
-XPC_SERVICE_NAME = application.com.microsoft.VSCode.12520903.12520909.B60B50B8-5372-4CB1-8307-D1A5115CECB7
+XPC_SERVICE_NAME = application.com.microsoft.VSCode.12520903.12520909
 # environment
 HOMEBREW_PREFIX = /opt/homebrew
 # automatic
@@ -150,7 +140,6 @@ HOMEBREW_REPOSITORY = /opt/homebrew
 __CF_USER_TEXT_ENCODING = 0x1F5:0x19:0x34
 # environment
 COMMAND_MODE = unix2003
- 
 # default
 MAKEFILES := 
 # automatic
@@ -170,15 +159,13 @@ MAKELEVEL := 0
 # environment
 CONDA_PREFIX = /Users/haobingwei/opt/anaconda3
 # environment
-TERM = xterm-256color
-# environment
-VSCODE_PID = 4557
+VSCODE_PID = 15583
 # environment
 _CE_CONDA = 
 # environment
 LANG = C
 # variable set hash-table stats:
-# Load=81/1024=8%, Rehash=0, Collisions=3/104=3%
+# Load=75/1024=7%, Rehash=0, Collisions=2/98=2%
 
 # Pattern-specific Variable Values
 
@@ -203,6 +190,7 @@ all: creat_fifo read_fifo write_fifo
 #  File has not been updated.
 # variable set hash-table stats:
 # Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+ 
 
 # Not a target:
 write_fifo.o:
@@ -292,6 +280,6 @@ read_fifo.o:
 # strcache size: total = 4096 / max = 4096 / min = 4096 / avg = 4096
 # strcache free: total = 4087 / max = 4087 / min = 4087 / avg = 4087
 
-# Finished Make data base on Sun Jun 26 21:01:40 2022
+# Finished Make data base on Mon Jun 27 19:47:14 2022
 
  
