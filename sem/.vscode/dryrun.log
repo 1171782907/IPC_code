@@ -1,0 +1,8 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory `/Users/haobingwei/Desktop/github项目/demo_ipc/sem'
+cc    -c -o synchronous_sem.o synchronous_sem.c
+gcc -o synchronous_sem  synchronous_sem.o			
+cc    -c -o mutex_sem.o mutex_sem.c
+gcc -o mutex_sem  mutex_sem.o		
+make: Leaving directory `/Users/haobingwei/Desktop/github项目/demo_ipc/sem'
+ 
